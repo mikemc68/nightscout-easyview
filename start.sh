@@ -10,7 +10,7 @@ easyview:
   server: "${EASYVIEW_SERVER}"
 nightscout:
   url: "${NIGHTSCOUT_URL}"
-  api_secret: "${NIGHTSCOUT_API_SECRET}"
+  secret: "${NIGHTSCOUT_API_SECRET}"
 EOF
 
 python src/uploader.py
